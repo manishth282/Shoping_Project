@@ -1,0 +1,13 @@
+.addItems> #additems{
+    width: 700px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px black;
+    transform: translate(350px,30px);
+    padding: 10px;
+    background:linear-gradient(rgba(235, 235, 84, 0.596),rgba(238, 112, 133, 0.562));
+}
+.addItems> #additems>.boxinput{
+    background-color: aquamarine;
+    width: 400px;
+}

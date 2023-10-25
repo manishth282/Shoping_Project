@@ -1,0 +1,43 @@
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.display>.page{
+    border: 1px solid;
+    width: 210px;
+    padding: 5px;
+    margin: 5px 20px;
+}
+.display>.page>.image{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.display>.page>.image {
+    width: 100%; 
+    height: 0; 
+    padding-bottom: 75%; 
+
+    position: relative; 
+    overflow: hidden; 
+}
+
+.display>.page>.image img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+
+
+.display>.page>details{
+    width: 100px;
+}
+.display>.page>.buttons{
+    display: flex;
+    justify-content: space-between;
+}

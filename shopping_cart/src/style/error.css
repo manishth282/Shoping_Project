@@ -1,0 +1,32 @@
+.not-found-container {
+    text-align: center;
+    padding: 40px;
+    background:linear-gradient(60deg,yellow,blue,pink);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    color: #ff6347;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  
+  a {
+    font-size: 1.2rem;
+    color: #b3ff00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

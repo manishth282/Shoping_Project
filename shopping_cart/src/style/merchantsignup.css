@@ -1,0 +1,10 @@
+#signup{
+    width: 40%;
+    border: 1px solid;
+    transform: translate(400px, 50px);
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px black;
+    background: linear-gradient( 120deg, rgba(99, 190, 212, 0.63),rgba(123, 255, 0, 0.589),rgba(128, 0, 60, 0.61));
+
+}
